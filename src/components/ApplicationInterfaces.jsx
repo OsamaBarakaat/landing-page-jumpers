@@ -33,7 +33,7 @@ const ApplicationInterfaces = () => {
             The interface of the company or institution{" "}
           </h1>
           <p className="max-w-2xl mb-6 font-light text-slate-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            As an owner of a company or institution, you can request qualified
+            As an owner of company or institution, you can request qualified
             employees in all fields in the blink of an eye through the giant
             Jumpers application
           </p>
