@@ -19,7 +19,7 @@ export default function NavBar() {
           />
         </Link>
         <div className="flex gap-2 md:order-2">
-          <Link to="/">
+          <Link to="https://jumpers.vercel.app/auth/signin">
             <Button className="bg-teal-700">Login</Button>
           </Link>
           <Navbar.Toggle />
