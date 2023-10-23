@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-3 lg:grid-cols-4 gap-4 items-center justify-center">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-3 lg:grid-cols-4 gap-4 items-center justify-center pt-20">
       <div className="max-w-sm bg-white border justify-center justify-self-center mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <img
           className="rounded-t-lg"

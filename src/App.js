@@ -12,6 +12,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
 import Services from "./pages/Services";
+import AboutUs from "./pages/AboutUs";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -34,7 +35,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sector" element={<SectorPage />} />
           <Route path="/contact" element={<Contact />} />{" "}
-          <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<Services />} />{" "}
+          <Route path="/about" element={<AboutUs />} />
         </Route>
       </Routes>
       <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />

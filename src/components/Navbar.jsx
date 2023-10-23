@@ -52,6 +52,13 @@ export default function NavBar() {
             className="focus:underline text-slate-50 my-1 py-3 px-3 rounded bg-teal-700  md:bg-white md:text-teal-700"
           >
             Contact
+          </Link>{" "}
+          <Link
+            active
+            to="/about"
+            className="focus:underline text-slate-50 my-1 py-3 px-3 rounded bg-teal-700  md:bg-white md:text-teal-700"
+          >
+            About Us
           </Link>
         </Navbar.Collapse>
       </Navbar>
