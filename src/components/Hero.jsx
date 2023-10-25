@@ -18,13 +18,16 @@ const Hero = () => {
           </p>
           <div className="w-full flex justify-between">
             <a
-              href="https://jumpers.vercel.app/auth/signupclient"
+              type="button"
               class="focus:outline-none w-full md:w-full text-white bg-teal-700	 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
             >
               Looking for employees
             </a>
 
-            <a class="focus:outline-none w-full md:w-full text-white bg-teal-700	 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800">
+            <a
+              type="button"
+              class="focus:outline-none w-full md:w-full text-white bg-teal-700	 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
+            >
               Job Seekers (Jumbers)
             </a>
           </div>
