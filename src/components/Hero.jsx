@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import jumperGIF from "../assets/appInterface/jumper.gif";
+
 const Hero = () => {
   return (
     <section id="hero" className=" dark:bg-gray-900 py-10">
@@ -18,15 +20,19 @@ const Hero = () => {
           </p>
           <div className="w-full flex justify-between">
             <a
-              type="button"
-              class="focus:outline-none w-full md:w-full text-white bg-teal-700	 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
+              href="https://jumpers.vercel.app/auth/signupclient"
+              target="_blank"
+              class="focus:outline-none text-center w-full md:w-full text-white bg-teal-700	 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
+              rel="noreferrer"
             >
               Looking for employees
             </a>
 
             <a
-              type="button"
-              class="focus:outline-none w-full md:w-full text-white bg-teal-700	 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
+              href="https://jumpers.vercel.app/auth/signup"
+              target="_blank"
+              class="focus:outline-none text-center w-full md:w-full text-white bg-teal-700	 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
+              rel="noreferrer"
             >
               Job Seekers (Jumbers)
             </a>
@@ -37,7 +43,7 @@ const Hero = () => {
             // src="https://images.unsplash.com/photo-1595853035070-59a39fe84de3?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1925"
             alt="mockup"
             className="rounded"
-            src="https://jumpersksa.com/jumper.gif"
+            src={jumperGIF}
           />
         </div>
       </div>

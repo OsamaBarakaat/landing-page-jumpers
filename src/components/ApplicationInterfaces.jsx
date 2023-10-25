@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsGooglePlay } from "react-icons/bs";
 import { FaAppStoreIos } from "react-icons/fa6";
+import interface1 from "../assets/appInterface/interface1.png";
+import interface2 from "../assets/appInterface/interface2.png";
 
 const ApplicationInterfaces = () => {
   return (
@@ -22,12 +24,9 @@ const ApplicationInterfaces = () => {
       </div>
       <div className="grid max-w-screen-xl px-4 pb-8 justify-center justify-self-center mx-auto lg:gap-8 xl:gap-0 lg:pb-16 lg:grid-cols-12">
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex mr-10">
-          <img
-            src="	https://jumpersksa.com/uploads/application_interfaces/1081651215161.png"
-            alt="mockup"
-            className="rounded"
-          />
+          <img src={interface1} alt="mockupp" className="rounded" />
         </div>
+
         <div className="mr-auto place-self-center lg:col-span-7">
           <h1 className="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl text-slate-700 dark:text-white">
             The interface of the company or institution{" "}
@@ -82,11 +81,7 @@ const ApplicationInterfaces = () => {
           </div>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex ">
-          <img
-            src="https://jumpersksa.com/uploads/application_interfaces/1341651215224.png"
-            alt="mockup"
-            className="rounded"
-          />
+          <img src={interface2} alt="mockup" className="rounded" />
         </div>
       </div>
     </section>
